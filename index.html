@@ -1,0 +1,17 @@
+<html>
+<body>
+    <p>Gracias por descargar UNHCR VR</p>
+    <script>
+      // This URL must be a full url.
+      var manifestUrl = "http://southmedia.com.ar/appUNHCR/manifest.webapp";
+      var req = navigator.mozApps.installPackage(manifestUrl);
+      req.onsuccess = function() {
+        alert("success:" + this.result.origin);
+      };
+      req.onerror = function() {
+        alert("failure:" + this.error.name);
+      };
+    </script>
+
+</body>
+</html>
