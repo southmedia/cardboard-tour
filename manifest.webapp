@@ -1,0 +1,8 @@
+HTTP/1.1 200 OK
+Content-Type: application/x-web-app-manifest+json
+
+{
+    "name": "UNHCR VR",
+	 "description": "Saatari refugee camp virtual tour",
+    "package_path" : "http://southmedia.com.ar/appUNHCR/package.zip",
+}
